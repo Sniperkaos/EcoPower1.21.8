@@ -32,11 +32,6 @@ public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
-        Config cfg = new Config(this);
-
-        if (cfg.getBoolean("options.auto-update")) {
-            new GitHubBuildsUpdater(this, getFile(), "Sniperkaos/EcoPower1.21.8/master").start();
-        }
         
         ItemStack categoryItem = CustomItemStack.create(SlimefunUtils.getCustomHead("240775c3ad75763613f32f04986881bbe4eee4366d0c57f17f7c7514e2d0a77d"), "&2Eco-Power Generators");
         ItemGroup itemGroup = new ItemGroup(new NamespacedKey(this, "generators"), categoryItem, 4);
