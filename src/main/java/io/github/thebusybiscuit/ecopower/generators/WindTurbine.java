@@ -4,6 +4,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Particle;
 import org.bukkit.Tag;
@@ -80,7 +81,7 @@ public class WindTurbine extends SlimefunItem implements EnergyNetProvider {
             }
         }
 
-        l.getWorld().spawnParticle(Particle.SPELL, l.getX() + 0.5, l.getY(), l.getZ() + 0.5, 4, 0, 0.4, 0, 0.01);
+        l.getWorld().spawnParticle(Particle.ENTITY_EFFECT, l.getX() + 0.5, l.getY(), l.getZ() + 0.5, 4, 0, 0.4, 0, Color.LIME);
         return true;
     }
 }

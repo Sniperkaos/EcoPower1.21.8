@@ -3,6 +3,7 @@ package io.github.thebusybiscuit.ecopower.generators;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+import dev.cworldstar.builders.ItemStackBuilder;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
@@ -23,7 +24,7 @@ public class SteamTurbineMultiblock extends SimpleSlimefunItem<ItemUseHandler> i
     public SteamTurbineMultiblock(ItemGroup itemGroup, SlimefunItemStack item, SteamTurbine turbine) {
         super(itemGroup, item, RecipeType.MULTIBLOCK, new ItemStack[] {
                 null, turbine.getItem(), null,
-                null, new CustomItemStack(Material.WATER_BUCKET, "&fWater (Bubble Column)"), null,
+                null, new ItemStackBuilder(Material.WATER_BUCKET).name("<aqua>Water <white>(Bubble Column)").item(), null,
                 null, new ItemStack(Material.MAGMA_BLOCK), null
         });
     }
