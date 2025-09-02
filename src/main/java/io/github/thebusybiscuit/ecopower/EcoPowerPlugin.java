@@ -22,9 +22,7 @@ import io.github.thebusybiscuit.slimefun4.core.attributes.MachineType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.electric.gadgets.SolarHelmet;
 import io.github.thebusybiscuit.slimefun4.implementation.items.electric.generators.SolarGenerator;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 
@@ -56,7 +54,7 @@ public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
                 SlimefunItems.BRASS_INGOT.asOne(), SlimefunItems.COPPER_WIRE.asOne(), SlimefunItems.BRASS_INGOT.asOne()
         });
         
-        registerSteamTurbine(itemGroup, "STEAM_TURBINE_3", "b65e29a67860d82f66afe1060ec8a9ceacc8c7afe108f5d42f52ba854b0a62dc", "&4CARBONADO.asOne() Steam Turbine", MachineTier.END_GAME, 13, new ItemStack[] {
+        registerSteamTurbine(itemGroup, "STEAM_TURBINE_3", "b65e29a67860d82f66afe1060ec8a9ceacc8c7afe108f5d42f52ba854b0a62dc", "&4Carbonado Steam Turbine", MachineTier.END_GAME, 13, new ItemStack[] {
                 null, rotor.asOne(), null,
                 SlimefunItems.CARBONADO.asOne(), advancedTurbine.getItem(), SlimefunItems.CARBONADO.asOne(),
                 SlimefunItems.REINFORCED_ALLOY_INGOT.asOne(), SlimefunItems.ELECTRIC_MOTOR.asOne(), SlimefunItems.REINFORCED_ALLOY_INGOT.asOne()
@@ -74,7 +72,7 @@ public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
                 SlimefunItems.ALUMINUM_BRASS_INGOT.asOne(), SlimefunItems.COPPER_WIRE.asOne(), SlimefunItems.ALUMINUM_BRASS_INGOT.asOne()
         });
 
-        registerWindTurbine(itemGroup, "WIND_TURBINE_3", "3fcef461b43f06ef9d58c94065bbf41b77a10050520b44082d5f66f6dbe71da0", "&4CARBONADO.asOne() Wind Turbine", MachineTier.END_GAME, 23, new ItemStack[] {
+        registerWindTurbine(itemGroup, "WIND_TURBINE_3", "3fcef461b43f06ef9d58c94065bbf41b77a10050520b44082d5f66f6dbe71da0", "&4Carbonado Wind Turbine", MachineTier.END_GAME, 23, new ItemStack[] {
                 SlimefunItems.FERROSILICON.asOne(), rotor.asOne(), SlimefunItems.FERROSILICON.asOne(),
                 SlimefunItems.ELECTRIC_MOTOR.asOne(), advancedWindTurbine.getItem(), SlimefunItems.ELECTRIC_MOTOR.asOne(),
                 SlimefunItems.CARBONADO.asOne(), SlimefunItems.FERROSILICON.asOne(), SlimefunItems.CARBONADO.asOne()
