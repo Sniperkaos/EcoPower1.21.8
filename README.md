@@ -13,23 +13,13 @@ You can find a list of all the new ways you can generate power right below:
 * Wind Turbines
 * Lightning Receptors (transform lightning strikes into useable electricity -> [video](https://youtu.be/mAntFr0c1gg))
 
-## Download EcoPower
-You can download EcoPower right here: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/EcoPower/master/)
+## Fork
+This is a fork of the original EcoPower addon. (original: https://github.com/Slimefun-Addon-Community/EcoPower)
+As such, I am only maintaining and not updating this addon.
 
-<p align="center">
-  <a href="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/EcoPower/master/">
-    <img src="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/EcoPower/master/badge.svg" alt="Build Server"/>
-  </a>
-</p>
-
-## Discord
-You can find Slimefun's community on Discord!
-Click the badge down below to join the server for suggestions/questions or other discussions about this plugin.
-<p align="center">
-  <a href="https://discord.gg/fsD4Bkh">
-    <img src="https://img.shields.io/discord/565557184348422174?color=7289DA&label=Discord&style=for-the-badge" alt="Discord Invite"/>
-  </a>
-</p>
+## Issues
+If you encounter any issues, open an issue. There's no guarantee I'll do it,
+but at least I'll know about it.
 
 ## Open Source
 This Project is open-source and licensed under the [MIT License](https://github.com/TheBusyBiscuit/EcoPower/blob/master/LICENSE)
